@@ -1,5 +1,8 @@
-###  Bracket match:
 
+import sys
+import math
+
+###  Bracket match:
 def bracket_match(bracket_string):
     if len(bracket_string) == 0:
         return 0
@@ -18,3 +21,16 @@ print(bracket_match('((()))()())))))'))
 
 
 
+
+###
+def insertion_sort(aList):
+    for i in range(1, len(aList)):
+        tmp = aList[i]
+        k = i
+    while k > 0 and tmp < aList[k - 1]:
+        aList[k] = aList[k - 1]
+        k -= 1
+    aList[k] = tmp
+
+my_list = [5, 2, 6, 7, 12, 18, 21, 3, 6, 9]
+insertion_sort(my_list)
