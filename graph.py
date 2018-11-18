@@ -1,10 +1,12 @@
 # Python3 program to print BFS traversal from a given source vertex. BFS(int, s) traverses vertices reachable from s.
-
+# --------------------------------------------------------------------------
 from collections import defaultdict
 
 # Make a class represents a directed graph using adjacency list
 # adjacency list is a collection of unordered lists to represent a finite graph.
 
+# --------------------------------------------------------------------------
+# Breadth first search or BFS for a graph
 
 class Graph:
 
@@ -55,4 +57,58 @@ g.BFS(2)
 
 # This is code is from:
 # https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/
+
+
+
+
+# --------------------------------------------------------------------------
+# Breadth first search or BFS for a graph
+class Graph2:
+
+    def __init__(self):
+
+        self.graph = defaultdict(list)
+
+    def addEdge(self, u, v):
+        self.graph2[u].append(v)
+
+    def DFSUtil(self, v, visited):
+
+        visited[v] = True
+        print v,
+
+        for i in self.graph2[v]:
+            if visited[i] == False:
+                self.DFSUtil(i, visited)
+
+
+    def DFS(self, v):
+
+        visited = [False]*(len(self.graph))
+
+
+        self.DFSUtil(v, visited)
+
+
+
+
+# Create a graph given in the above diagram
+
+g2 = Graph()
+g.addEdge(0, 1)
+g.addEdge(0, 2)
+g.addEdge(1, 2)
+g.addEdge(2, 0)
+g.addEdge(2, 3)
+g.addEdge(3, 3)
+
+print "Following is DFS from (starting from vertex 2)"
+g.DFS(2)
+
+
+
+
+
+
+
 

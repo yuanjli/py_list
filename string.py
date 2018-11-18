@@ -75,3 +75,9 @@ def binary_search(data, target):
 test_target = 14
 test_data = [1, 2, 4, 5, 7, 9, 10, 11, 13, 15, 16, 18, 100, 120]
 print("Found target value", test_target, "at index", binary_search(test_data, test_target))
+
+
+
+
+
+
