@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9eb516-515f-4d86-96a5-a563dd96482c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/arraySequences/anagram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arraySequences/ArrayPairSum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,37 +25,50 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2616" />
+          <entry key="py" value="3127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2616" />
+          <entry key="Python" value="3127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="5" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="5" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arraySequences/anagram.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            <state relative-caret-position="510">
+              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
               <folding>
-                <marker date="1542784214973" expanded="true" signature="108:109" ph="..." />
-                <marker date="1542784214973" expanded="true" signature="108:117" ph="..." />
-                <marker date="1542784214973" expanded="true" signature="284:285" ph="..." />
+                <marker date="1542784354000" expanded="true" signature="108:109" ph="..." />
+                <marker date="1542784354000" expanded="true" signature="108:117" ph="..." />
+                <marker date="1542784354000" expanded="true" signature="284:285" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/arraySequences/ArrayPairSum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <folding>
+                <marker date="1542785693120" expanded="true" signature="137:143" ph="..." />
+                <marker date="1542785693120" expanded="true" signature="137:514" ph="..." />
               </folding>
             </state>
           </provider>
@@ -80,13 +93,13 @@
         <option value="$PROJECT_DIR$/string.py" />
         <option value="$PROJECT_DIR$/graph.py" />
         <option value="$PROJECT_DIR$/arraySequences/anagram.py" />
+        <option value="$PROJECT_DIR$/arraySequences/ArrayPairSum.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-81" />
     <option name="y" value="23" />
-    <option name="width" value="1150" />
+    <option name="width" value="915" />
     <option name="height" value="991" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -102,6 +115,11 @@
             <path>
               <item name="py_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="py_practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="py_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="arraySequences" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -121,7 +139,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.anagram">
+  <component name="RunManager" selected="Python.ArrayPairSum">
+    <configuration name="ArrayPairSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/arraySequences" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/arraySequences/ArrayPairSum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="anagram" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,9 +228,11 @@
       <item itemvalue="Python.string" />
       <item itemvalue="Python.graph" />
       <item itemvalue="Python.anagram" />
+      <item itemvalue="Python.ArrayPairSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ArrayPairSum" />
         <item itemvalue="Python.anagram" />
         <item itemvalue="Python.graph" />
         <item itemvalue="Python.string" />
@@ -212,10 +253,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-199" y="23" width="1150" height="991" extended-state="0" />
+    <frame x="0" y="23" width="915" height="991" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32506642" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26510066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -262,12 +303,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/arraySequences/anagram.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state relative-caret-position="510">
+          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
           <folding>
-            <marker date="1542784214973" expanded="true" signature="108:109" ph="..." />
-            <marker date="1542784214973" expanded="true" signature="108:117" ph="..." />
-            <marker date="1542784214973" expanded="true" signature="284:285" ph="..." />
+            <marker date="1542784354000" expanded="true" signature="108:109" ph="..." />
+            <marker date="1542784354000" expanded="true" signature="108:117" ph="..." />
+            <marker date="1542784354000" expanded="true" signature="284:285" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arraySequences/ArrayPairSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <marker date="1542785693120" expanded="true" signature="137:143" ph="..." />
+            <marker date="1542785693120" expanded="true" signature="137:514" ph="..." />
           </folding>
         </state>
       </provider>
