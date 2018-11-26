@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9eb516-515f-4d86-96a5-a563dd96482c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/arraySequences/sentenceReversal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arraySequences/ArrayPairSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/arraySequences/arrayPairSum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arraySequences/sentenceReversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/arraySequences/sentenceReversal.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,13 +27,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="py" value="4512" />
+          <entry key="py" value="4894" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="4512" />
+          <entry key="Python" value="4894" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -136,11 +134,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/arraySequences/sentenceReversal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="196">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
               <folding>
-                <marker date="1543218614101" expanded="true" signature="214:219" ph="..." />
-                <marker date="1543218614101" expanded="true" signature="274:279" ph="..." />
+                <marker date="1543219071998" expanded="true" signature="247:254" ph="..." />
+                <marker date="1543219071998" expanded="true" signature="312:319" ph="..." />
+                <marker date="1543219071998" expanded="true" signature="488:799" ph="..." />
               </folding>
             </state>
           </provider>
@@ -355,12 +354,12 @@
     <frame x="-21" y="24" width="893" height="991" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27178898" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27178898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -447,11 +446,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/arraySequences/sentenceReversal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        <state relative-caret-position="196">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding>
-            <marker date="1543218614101" expanded="true" signature="214:219" ph="..." />
-            <marker date="1543218614101" expanded="true" signature="274:279" ph="..." />
+            <marker date="1543219071998" expanded="true" signature="247:254" ph="..." />
+            <marker date="1543219071998" expanded="true" signature="312:319" ph="..." />
+            <marker date="1543219071998" expanded="true" signature="488:799" ph="..." />
           </folding>
         </state>
       </provider>
